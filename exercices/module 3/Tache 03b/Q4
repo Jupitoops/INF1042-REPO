@@ -1,0 +1,18 @@
+# q4.py
+# Objectif : faire 3 opérations sur une chaîne (mot)
+
+def operations_sur_mot(mot):
+    repetition = mot * 3          # répète le mot 3 fois
+    concatenation = mot + "!"     # ajoute un !
+    contient_a = ("a" in mot)     # True si "a" est dans le mot
+
+    return repetition, concatenation, contient_a
+
+
+mot = input("Entrez un mot : ")
+
+rep, conc, test_a = operations_sur_mot(mot)
+
+print("mot * 3 =", rep)
+print('mot + "!" =', conc)
+print('"a" in mot =', test_a)
