@@ -1,0 +1,8 @@
+# q7.py
+# Objectif : retourner la moyenne de 3 nombres
+
+def moyenne(a, b, c):
+    return (a + b + c) / 3
+
+
+print(moyenne(10, 20, 30))  # 20.0 

@@ -1,0 +1,14 @@
+# q2.py
+# Objectif : vérifier si une personne peut entrer dans un club (18+)
+
+def peut_entrer(age):
+    # Retourne True si age est 18 ou plus
+    return age >= 18
+
+
+age = int(input("Entrez votre âge : "))
+
+if peut_entrer(age):
+    print("Oui Tu peux entrer (18+).")
+else:
+    print("Non Tu ne peux pas entrer (18+ seulement).")

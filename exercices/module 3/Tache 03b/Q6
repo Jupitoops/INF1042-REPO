@@ -1,0 +1,12 @@
+# q6.py
+# Objectif : retourner True si n est pair, sinon False
+# Un nombre pair = divisible par 2 (reste 0)
+
+def est_pair(n):
+    return n % 2 == 0
+
+
+# Tests
+print(est_pair(2))   # True
+print(est_pair(7))   # False
+print(est_pair(10))  # True 

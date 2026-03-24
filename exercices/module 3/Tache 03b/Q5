@@ -1,0 +1,8 @@
+# q5.py
+# Objectif : fonction carre(n) qui retourne n*n
+
+def carre(n):
+    return n * n
+
+
+print(carre(7)) 

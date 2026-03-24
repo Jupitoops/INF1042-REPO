@@ -1,0 +1,16 @@
+# q3.py
+# Objectif : afficher "Sortie permise" si temperature >= 15 ET qu'il ne pleut pas
+
+def sortie_permise(temperature, pluie):
+    # pluie est un texte "oui" ou "non"
+    # not (pluie == "oui") veut dire "il ne pleut pas"
+    return (temperature >= 15) and (pluie == "non")
+
+
+temperature = float(input("Température (ex: 16.5) : "))
+pluie = input("Est-ce qu'il pleut ? (oui/non) : ").strip().lower()
+
+if sortie_permise(temperature, pluie):
+    print("Sortie permise")
+else:
+    print("On reste dedans") 

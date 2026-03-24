@@ -1,0 +1,4 @@
+def calculer_puissance(base, exposant):
+    resultat = pow(base, exposant)
+    resultat_arrondi = round(resultat, 2)
+    return resultat_arrondi 

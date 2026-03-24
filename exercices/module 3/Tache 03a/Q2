@@ -1,0 +1,3 @@
+nombre = float(input("Entrez un nombre : "))
+resultat = nombre * 5
+print("Le résultat est :", resultat) 

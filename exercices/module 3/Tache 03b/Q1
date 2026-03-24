@@ -1,0 +1,20 @@
+# q1.py
+# Objectif : demander un entier n et afficher n / 4 et n // 4
+# /  : division normale (donne souvent un nombre avec décimales)
+# // : division entière (garde seulement la partie entière, arrondit vers le bas)
+
+def divisions_par_4(n):
+    div_normale = n / 4
+    div_entiere = n // 4
+    return div_normale, div_entiere
+
+
+n = int(input("Entrez un entier n : "))
+
+d1, d2 = divisions_par_4(n)
+print("n / 4  =", d1)
+print("n // 4 =", d2)
+
+print("\nExplication :")
+print("/  sert à faire une division normale (ex: 7 / 4 = 1.75).")
+print("// sert à avoir la division entière (ex: 7 // 4 = 1).")
